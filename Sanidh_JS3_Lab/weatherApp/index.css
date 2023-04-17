@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("bckground.jpg") ;
+}
+
+input{
+    position: fixed;
+    width: 30em;
+    height: 3em;
+    left: 32%;
+    top: 10%;
+    border-bottom-style: solid;
+    border-bottom-color: orange;
+    border-bottom-width: 3px;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+#mainDiv{
+    position: fixed;
+    left: 32%;
+    top: 20%;
+
+}
+
+#cityAndDateHolder{
+    width: 25em;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+#cityAndDateHolder span{
+    font-size: 50px;
+}
+
+#cityAndDateHolder p{
+    font-size: 30px;
+}
+
+#temperature{
+    width: 25em;
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+}
+
+#temperature span{
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+#weather{
+    width: 25em;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+#weather span{
+    font-size: 50px;
+    font-style: italic;
+}
+
+#weather p{
+    font-size: 20px;
+}
